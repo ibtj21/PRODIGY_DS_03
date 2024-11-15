@@ -1,6 +1,5 @@
 # PRODIGY_DS_03 : BANK_MARKETING
-### Predicting Customer Subscription to Term Deposits using a Decision Tree Classifier  
-
+### Predicting Customer Subscription to Term Deposits using a Decision Tree Classifier 
 # Table of Contents  
 - [Description](#description)  
 - [Overview](#overview)  
@@ -17,24 +16,24 @@
 ___  
 
 ## Description  
-This project aims to build a **Decision Tree Classifier** to predict whether a bank customer will subscribe to a term deposit. Using features such as demographic data, contact history, and marketing campaign engagement, the model helps the bank target the most promising customers, improving marketing effectiveness.  
+This project aims to build a **Decision Tree Classifier** to predict whether a bank customer will subscribe to a term deposit. By analyzing features such as demographic data, contact history, and marketing campaign engagement, the model helps the bank target promising customers, improving marketing campaign effectiveness.  
 
 ___  
 
 ## Overview  
-The project involves the following:  
+The project involves:  
 1. Analyzing customer data to identify key predictors of subscription behavior.  
 2. Building a baseline model for performance comparison.  
 3. Developing a Decision Tree Classifier and evaluating its performance.  
-4. Optimizing the model through hyperparameter tuning to achieve better results.  
-5. Generating actionable recommendations for the bank to enhance their marketing strategies.  
+4. Optimizing the model with hyperparameter tuning for better results.  
+5. Generating actionable recommendations for enhancing the bank's marketing strategies.  
 
-Python libraries such as `pandas`, `numpy`, `matplotlib`, `seaborn`, and `sklearn` are used for data manipulation, visualization, and modeling.  
+Key Python libraries used include `pandas`, `numpy`, `matplotlib`, `seaborn`, and `sklearn` for data manipulation, visualization, and modeling.  
 
 ___  
 
 ## Data Source  
-The dataset used in this project is from the [Bank Marketing Data](https://archive.ics.uci.edu/ml/datasets/bank+marketing) available in the UCI Machine Learning Repository.  
+The dataset used in this project is available on Kaggle: [Classification of Bank Deposit Using Decision Tree](https://www.kaggle.com/code/mehakiftikhar/classification-of-bank-deposit-using-decision-tree).  
 
 ___  
 
@@ -44,12 +43,12 @@ To set up the project, follow these steps:
 
 1. Clone the repository to your local machine:  
     ```bash  
-    git clone https://github.com/username/BANK_MARKETING_DT_01.git  
+    git clone https://github.com/ibtj21/PRODIGY_DS_03.git  
     ```  
 
 2. Navigate to the project directory:  
     ```bash  
-    cd BANK_MARKETING_DT_01  
+    cd PRODIGY_DS_03  
     ```  
 
 3. Install the required dependencies:  
@@ -90,15 +89,17 @@ ___
    - Assess the model using metrics such as accuracy, precision, recall, and F1-score.  
    - Visualize feature importance and tree structure for interpretability.  
 
+Find the complete implementation [here](https://github.com/ibtj21/PRODIGY_DS_03/blob/main/Bank_Marketing.ipynb).  
+
 ___  
 
 ## Recommendations  
 
 1. **Focus on High-Duration Calls**:  
-   - Customers with longer call durations are more likely to subscribe, making duration the most significant predictor.  
+   - Customers with longer call durations are more likely to subscribe, making duration a critical predictor.  
 
 2. **Optimize Contact Methods**:  
-   - Invest in researching the most effective contact methods to improve engagement.  
+   - Research and enhance the most effective contact methods to improve engagement.  
 
 3. **Engage Customers Regularly**:  
    - Actively monitor and update the last contact date to ensure timely follow-ups, as recency strongly influences subscription likelihood.  
@@ -122,4 +123,5 @@ Ensure your contributions align with the project's coding standards.
 ___  
 
 ## License  
-This project is licensed under the MIT License. See the [LICENSE](https://github.com/username/BANK_MARKETING_DT_01/blob/main/LICENSE) file for details.  
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/ibtj21/PRODIGY_DS_03/blob/main/LICENSE) file for details.  
+  
